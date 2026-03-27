@@ -150,34 +150,52 @@ The game client doesn't always provide the spell rank when you cast directly fro
 
 ## 🎯 Supported Spells
 
-The addon supports all Paladin spells, including:
-- Holy Light / Flash of Light
-- Holy Shield / Holy Strike
-- Consecration
-- Cleanse
-- Blessings (Wisdom, Might, Kings, etc.)
-- Seals (Righteousness, Crusader, Wisdom, etc.)
-- Judgement
-- Hand of Freedom
-- Hammer of Justice
+| Spell | Category |
+|-------|----------|
+| Holy Light | Healing |
+| Flash of Light | Healing |
+| Holy Shield | Protection |
+| Holy Strike | Damage |
+| Consecration | AOE |
+| Cleanse | Utility |
+| Blessing of Wisdom | Buff |
+| Blessing of Might | Buff |
+| Blessing of Kings | Buff |
+| Blessing of Salvation | Buff |
+| Greater Blessing of Light | Buff |
+| Greater Blessing of Wisdom | Buff |
+| Greater Blessing of Sanctuary | Buff |
+| Seal of Righteousness | Seal |
+| Seal of Crusader | Seal |
+| Seal of Wisdom | Seal |
+| Judgement | Damage |
+| Holy Shock | Healing/Damage |
+| Hammer of Justice | Control |
+| Hand of Freedom | Utility |
+| Devotion Aura | Passive |
 
 ## 📦 Supported Librams
 
-- Libram of the Faithful
-- Libram of the Farraki Zealot
-- Libram of Radiance
-- Libram of Light
-- Libram of Grace
-- Libram of the Dreamguard
-- Libram of the Justicar
-- Libram of the Resolute
-- Libram of the Eternal Tower
-- Libram of Final Judgement
-- Libram of Hope
-- Libram of Fervor
-- Libram of Truth
-- Libram of Veracity
-- Libram of Divinity
+| Libram | Type | Effect |
+|--------|------|--------|
+| Libram of the Faithful | Healing | Holy Light / Holy Shield |
+| Libram of the Farraki Zealot | Damage | Seal damage |
+| Libram of Radiance | Healing | Flash of Light |
+| Libram of Light | Healing | General healing |
+| Libram of Grace | Holy | Blessings |
+| Libram of the Dreamguard | Protection | Holy Shield |
+| Libram of the Justicar | Damage | Judgement |
+| Libram of the Resolute | Protection | Defense |
+| Libram of the Eternal Tower | Damage | Seal/Judgement |
+| Libram of Final Judgement | Damage | Judgement |
+| Libram of Hope | Healing | Holy Light |
+| Libram of Fervor | Holy | Auras |
+| Libram of Truth | Holy | Spells |
+| Libram of Veracity | Holy | Blessings |
+| Libram of Divinity | Healing | Holy Light / Flash of Light |
+| Libram of the Radiant Dawn | Holy | General |
+| Libram of Ardour | Holy | Holy Magic |
+| Libram of Hallowed Ground | Protection | Consecration |
 
 ## ❓ FAQ
 

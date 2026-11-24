@@ -1,0 +1,26 @@
+--- A. saved variables are loaded by the client AFTER the addon code ran
+LibramMap entries visible to the runtime:	0
+after PLAYER_LOGIN, LibramMap entries:	0	 (the OnEvent(self, event, ...) branches never run: 'event' parameter is nil)
+press Holy Light -> equip requests:	0	 casts:	1
+--- B. once the map is applied (what the config UI does), combat, 1.5 s swap GCD
+relic after ApplySelection (it equipped on selection):	Libram of Radiance
+  1000.50 UCI 0 1
+  1000.52 UCI 0 1
+  1000.55 SERVER: equipped Libram of Radiance (old Libram of the Faithful)
+  1000.57 SERVER: equipped Libram of the Faithful (old Libram of Radiance)
+  1000.60 CLIENT: combat swap GCD
+  1000.66 UCI 0 1
+  1000.71 SERVER: equipped Libram of Radiance (old Libram of the Faithful)
+  1001.12 REFUSED Holy Light (client cooldown 0.98)
+casts accepted:	0	 refused:	1
+--- C. same as B but the client updates slot 18 synchronously (W.syncEquip = true)
+  1000.50 UCI 0 1
+  1000.50 CAST Holy Light [byname]
+  1000.55 SERVER: equipped Libram of Radiance (old Libram of the Faithful)
+  1000.60 CLIENT: combat swap GCD
+casts accepted:	1	 refused:	0
+--- D. vendor window open while a spell is cast (no window guard in the old code)
+  1000.50 UCI 0 1
+  1000.50 SOLD item from bag 0 1
+  1000.50 CAST Holy Light [byname]
+  1000.55 SERVER: equipped Libram of Radiance (old Libram of the Faithful)

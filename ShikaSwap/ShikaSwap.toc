@@ -1,0 +1,18 @@
+## Interface: 11200
+## Title: ShikaSwap
+## Title-frFR: ShikaSwap
+## Notes: Swaps your libram / idol / totem before the spell that needs it, aware of the combat swap global cooldown. /shikaswap help
+## Notes-frFR: Change ta relique (libram / idole / totem) avant le sort qui en a besoin, en tenant compte du GCD d'echange en combat. /shikaswap help
+## Author: Shikawa (rewrite of LibramSwap, 2026-10)
+## Version: 1.3.0
+## SavedVariables: ShikaSwapDB
+ShikaSwap_Data.lua
+ShikaSwap_Core.lua
+ShikaSwap_Hooks.lua
+ShikaSwap_Cmd.lua
+ShikaSwap_Trace.lua
+ShikaSwap_Spec.lua
+ShikaSwap_Share.lua
+ShikaSwap_Display.lua
+ShikaSwap_Bindings.lua
+ShikaSwap_UI.lua

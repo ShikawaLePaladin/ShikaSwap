@@ -1,0 +1,11 @@
+<Bindings>
+	<Binding name="SHIKASWAP_MENU" header="SHIKASWAP">
+		if ShikaSwap and ShikaSwap.Bind then ShikaSwap.Bind("menu") end
+	</Binding>
+	<Binding name="SHIKASWAP_TOGGLE">
+		if ShikaSwap and ShikaSwap.Bind then ShikaSwap.Bind("toggle") end
+	</Binding>
+	<Binding name="SHIKASWAP_MODE">
+		if ShikaSwap and ShikaSwap.Bind then ShikaSwap.Bind("mode") end
+	</Binding>
+</Bindings>
